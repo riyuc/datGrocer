@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <link rel="stylesheet" href="../style.css">
+        <title>D.A.T. Grocery</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,500;0,600;0,700;0,800;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <div id="brandLogo"> 
+                    <h1> <a id="brandName" href ="../index.html"><i class="fa fa-leaf"></i> <i>D.A.T.</i> Grocer</a></h1>
+                </div>
+                <ul>
+                    <li class="italic mt-2"> Admin Functions </li>
+                    <li> <a href ="../login_files/login_page.html">Login/Sign Up</a></li>
+                    <li> <a href ="../checkout.html"><i class="fa fa-shopping-cart"></i></a></li>
+                </ul>  
+            </nav>
+            
+            <p>
+                <a href="back_store.html">
+                    <input type="button" class="myBtn" value="Return"> 
+                </a>
+            </p>
+            
+            <h2 class="mt-3">List of Orders:</h2>
+            <p><input type = "submit" value = "Add Order" class="myBtn"/></p>  
+            <div class="product-container">
+                <div class ="product-box">
+                    <a>
+                        <img class="product-image" src="../img/order_cart.png" alt="order_cart-img" >
+                    </a>
+                    <p>
+                        <input type="button" value="Delete" class="myBtn">
+                        <a href="back_order/order_one.html">
+                            <input type="button" value="Edit" class="myBtn">
+                        </a>
+                    </p>
+                    <h2>Order #176</h2>
+                </div>
+                <div class ="product-box">
+                    <a>
+                        <img class="product-image" src="../img/order_cart.png" alt="order_cart-img" >
+                    </a>
+                    <p>  
+                        <input type="button" value="Delete" class="myBtn">
+                        <a href="back_order/order_two.html">
+                            <input type="button" value="Edit" class="myBtn">
+                        </a>
+                    </p>
+                    <h2>Order #199</h2>
+                </div>
+                <div class ="product-box">
+                    <a>
+                        <img class="product-image" src="../img/order_cart.png" alt="order_cart-img" >
+                    </a>
+                    <p>
+                        <input type="button" value="Delete" class="myBtn">
+                        <a href="back_order/order_three.html">
+                            <input type="button" value="Edit" class="myBtn">
+                        </a>
+                    </p>
+                    <h2>Order #201</h2>
+                </div>
+            </div>
+            <footer>
+                <h4><i class="fa fa-leaf"></i></h4>
+            </footer>
+        </div>
+    </body>
+</html>
